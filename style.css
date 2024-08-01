@@ -102,9 +102,10 @@ nav a {
 }
 
 .header-nav-a {
-  padding: 16px 32px;
+  padding: 16px 0;
   gap: 10px;
   font-size: 16px;
+  margin: 0 32px;
 }
 
 .header-nav-a:hover {
@@ -131,7 +132,7 @@ nav a {
 }
 
 .icone {
-  padding: 18px;
+  padding: 16px;
   background-color: #F2F2F2;
   border-radius: 1rem 0 0 1rem;
 }
@@ -183,7 +184,9 @@ nav a {
 
 .container-filter {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .container-filter h2 {
@@ -198,7 +201,7 @@ nav a {
   justify-content: center;
   border: 2px solid #DADADA;
   border-radius: 35px;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
   height: fit-content;
 }
 
@@ -251,7 +254,7 @@ nav a {
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .all-articles {
@@ -265,7 +268,6 @@ nav a {
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
-  margin-left: 2rem;
 }
 
 .all-articles-hebergements {
@@ -444,6 +446,11 @@ nav a {
     margin-left: 1rem;
     gap: 10px;
     align-items: center;
+    width: 100%;
+  }
+
+  .container-filter-content {
+    padding: 10px 15px 10px 15px;
   }
 
   .filtres2 {
@@ -488,8 +495,8 @@ nav a {
     margin-top: 50px;
   }
 
-  .body {
-    margin: 10px;
+  body {
+    margin: 0 10px 0 10px;
   }
 
   .populaires-cards {
@@ -566,15 +573,17 @@ nav a {
     align-items: center;
   }
 
+  .header-nav-a {
+    border-bottom: 3px solid #F2F2F2;
+    margin: 0;
+  }
+
   .header-nav-a:hover {
     color: #0065FC;
     border-bottom: 2px solid #0065FC;
     border-top: none;
   }
 
-  .header-nav:hover {
-    border-bottom: 3px solid #F2F2F2;
-  }
 
   .header-searchbar-city button {
     border-radius: 1rem;
@@ -608,10 +617,10 @@ nav a {
   .container-filter-content {
     width: 40%;
     justify-content: flex-start;
-
+    padding: 10px;
   }
 
-  .Filtres3 {
+  .container-filter {
     gap: 0rem;
   }
 
@@ -627,7 +636,7 @@ nav a {
     gap: 10px;
   }
 
-  .body {
+  body {
     margin: 0px;
   }
 
