@@ -370,7 +370,7 @@ nav a {
 
 .activites {
   margin-bottom: 100px;
-  margin: 4rem;
+  margin: 3rem;
   margin-bottom: 4rem;
 }
 
@@ -429,12 +429,12 @@ nav a {
 
   .header-main-text h1 {
     margin-left: 1rem;
-    font-size: medium;
+    font-size: 22px;
   }
 
   .header-main-text p {
     margin-left: 1rem;
-    font-size: large;
+    font-size: 16px;
   }
 
   .container-filter-info-icon {
